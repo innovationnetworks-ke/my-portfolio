@@ -1,17 +1,17 @@
 <p align="center">
-  <a href="https://anuraghazra.github.io/">
-    <img alt="Gatsby" src="./src/static/logo_noalpha.svg" width="100" />
-    <h2 align="center">Anurag Hazra</h2>
+  <a href="https://ngugidavid.github.io/">
+    <!-- <img alt="Gatsby" src="./src/static/logo_noalpha.sv" width="100" /> -->
+    <h2 align="center">ngugi david</h2>
   </a>
 </p> 
 <p align="center">Creative FrontEnd Web Developer</p>
 
-[![Build Status](https://travis-ci.org/anuraghazra/anuraghazra.github.io.svg?branch=develop)](https://travis-ci.org/anuraghazra/anuraghazra.github.io)
-![GitHub](https://img.shields.io/github/license/anuraghazra/anuraghazra.github.io)
-![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=http%3A%2F%2Fanuraghazra.github.io)
+[![Build Status](https://travis-ci.org/ngugidavid/ngugidavid.github.io.svg?branch=develop)](https://travis-ci.org/ngugidavid/ngugidavid.github.io)
+![GitHub](https://img.shields.io/github/license/ngugidavid/ngugidavid.github.io)
+![Website](https://img.shields.io/website?down_message=offline&label=site&up_message=online&url=http%3A%2F%2Fngugidavid.github.io)
 
 
-![Anurag Hazra Site Preview](./src/static/screenshot.png)
+<!-- ![ngugi david Site Preview](./src/static/screenshot.png) -->
 
 Strained eyes? There's DarkMode too :p
 
@@ -28,7 +28,7 @@ _NOTE: The default branch for this repo is `develop`, when you push or pull make
 Fork the repository. then clone the repo locally by doing -
 
 ```bash
-git clone https://github.com/anuraghazra/anuraghazra.github.io.git
+git clone https://github.com/ngugidavid/ngugidavid.github.io.git
 ```
 
 ### Step 2: Install Dependencies
@@ -36,7 +36,7 @@ git clone https://github.com/anuraghazra/anuraghazra.github.io.git
 cd into the directory
 
 ```bash
-cd anuraghazra.github.io
+cd ngugidavid.github.io
 ```
 
 install all the dependencies
