@@ -1,26 +1,18 @@
 [
   {
-    "title": "Verly.js",
+    "title": "Asignment Helper Website",
     "links": {
-      "codepen": "//codepen.io/anuraghazra/embed/vwmLKo/?default-tab=result&theme-id=light",
-      "github": "//github.com/anuraghazra/Verly.js"
+      "codepen": "//codepen.io/Drongo-1/",
+      "github": "https://github.com/innovationnetworks-ke/assignment_website"
     },
-    "description": "Verly.js is an easy to integrate verlet physics engine made with javascript. It is also my most popular open-source project on GitHub, so far it got over 200 stars on Github and got mentioned in codepen spark"
+    "description": "Assign helper is a website that connects students to asignment experts."
   },
   {
-    "title": "Atomic.js",
+    "title": "College Library manament system",
     "links": {
-      "codepen": "//codepen.io/anuraghazra/embed/JxYGNL/?default-tab=result&theme-id=light",
-      "github": "//github.com/anuraghazra/atomic.js"
+      "codepen": "//codepen.io/Drongo-1",
+      "github": "https://github.com/innovationnetworks-ke/Library_system"
     },
-    "description": "Atomic.js is a Greatly Simple 2D Physics Engine. It is collision detection and resolution engine. It can be used in 2d HTML5 games and 2d physics simulations. It uses the SAT (Separating Axis Theorem) Collision Detection and mass separation collision resolution."
-  },
-  {
-    "title": "Candy.js",
-    "links": {
-      "codepen": "//codepen.io/anuraghazra/embed/pGjvaR/?default-tab=result&theme-id=light",
-      "github": "//github.com/anuraghazra/Candy.js"
-    },
-    "description": "Candy.js is CanvasAPI Rendering Toolkit Library. P5.js's methods and functions highly inspire Candy.js. But it is more geared towards simplicity and utility functions."
+    "description": "Library management system is an online system that allows colleges to automate the institutions library"
   }
 ]

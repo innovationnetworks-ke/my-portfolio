@@ -4,7 +4,7 @@ excerpt: QuickerPoll is a crowd-sourced real-time polling app created with React
 
 iframe: //www.youtube.com/embed/10sL4z9BHNE/?modestbranding=1&showinfo=0&autohide=1&rel=0
 demo: //quickerpoll.herokuapp.com
-src: //github.com/anuraghazra/QuickerPoll
+src: //github.com/ngugidavid/QuickerPoll
 
 info:
   idea: The basic idea of this project is to create a MERN stack app with basic CRUD operations, but not to make a todo app

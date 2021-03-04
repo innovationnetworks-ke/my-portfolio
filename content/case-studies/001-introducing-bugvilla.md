@@ -5,7 +5,7 @@ excerpt:
 
 iframe: //www.youtube.com/embed/lIYgHEI1gC4/?modestbranding=1&showinfo=0&autohide=1&rel=0
 demo: //bugvilla.herokuapp.com/
-src: //github.com/anuraghazra/BugVilla
+src: //github.com/ngugidavid/BugVilla
 
 info:
   idea:
@@ -15,7 +15,7 @@ info:
 ---
 
 - Live Demo: https://bugvilla.herokuapp.com/
-- Source Code: https://github.com/anuraghazra/BugVilla
+- Source Code: https://github.com/ngugidavid/BugVilla
 
 ## ✨ Features
 
@@ -44,6 +44,6 @@ info:
   - Express
   - Socket.io
 
-Hope you guys liked it. If you liked the project give it a star on [Github](https://github.com/anuraghazra/BugVilla). :D
+Hope you guys liked it. If you liked the project give it a star on [Github](https://github.com/ngugidavid/BugVilla). :D
 
 **More in-Depth explanation is coming soon, stay tuned.**

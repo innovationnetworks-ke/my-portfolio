@@ -36,7 +36,7 @@ const JsProjects = () => {
 
   return (
     <JsProjectsWrapper>
-      <PageHeader>Javascript Libraries</PageHeader>
+      <PageHeader>My Projects</PageHeader>
 
       {jsprojects.allJsprojectsJson.edges.map(({ node }) => (
         <ProjectTemplate
@@ -48,7 +48,7 @@ const JsProjects = () => {
               <Button
                 target="__blank"
                 as="a"
-                href="{node.links.github + '/archive/master.zip'}"
+                href="https://github.com/innovationnetworks-ke"
               >
                 Download
               </Button>

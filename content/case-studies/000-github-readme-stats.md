@@ -9,9 +9,9 @@ excerpt:
   features including `Github Extra Pins` which allows us to pin more that 6
   repos in our profile.
 
-iframe: //github-readme-stats.vercel.app/api/?username=anuraghazra
-demo: //github-readme-stats.vercel.app/api/?username=anuraghazra
-src: //github.com/anuraghazra/github-readme-stats
+iframe: //github-readme-stats.vercel.app/api/?username=ngugidavid
+demo: //github-readme-stats.vercel.app/api/?username=ngugidavid
+src: //github.com/ngugidavid/github-readme-stats
 
 info:
   idea:
@@ -28,13 +28,13 @@ profile Readmes i thought i should do something cool & unique, so i created this
 
 ### Github Readme Stats
 
-[![Github Readme Stats](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
+[![Github Readme Stats](https://github-readme-stats.vercel.app/api/pin/?username=ngugidavid&repo=github-readme-stats)](https://github.com/ngugidavid/github-readme-stats)
 
 Github readme stats allows you to simply add a markdown image link and it will
 show you realtime stats for your github account.
 
 ```md
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=ngugidavid)
 ```
 
 And the cool thing is since it's just an image you can embed it anywhere even on
@@ -42,7 +42,7 @@ any websites!
 
 Live Demo:
 
-![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&v=1)
+![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=ngugidavid&v=1)
 
 Pretty neat isn't it? Try it out right now on your profile readme too! :D
 
@@ -65,10 +65,10 @@ Live demo:
 [![Reactjs](https://github-readme-stats.vercel.app/api/pin/?username=facebook&repo=react&show_owner=true)](https://github.com/facebook/react)
 
 Check out the
-[docs to learn more](https://github.com/anuraghazra/github-readme-stats#github-extra-pins)
+[docs to learn more](https://github.com/ngugidavid/github-readme-stats#github-extra-pins)
 
 That's it :D I hope you guys liked the project. And make sure to give it a star
-on [Github](https://github.com/anuraghazra/github-readme-stats)
+on [Github](https://github.com/ngugidavid/github-readme-stats)
 
 #### Tweets
 

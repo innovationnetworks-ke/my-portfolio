@@ -3,8 +3,8 @@ title: GyroDodge
 excerpt: Dodge! Shoot! Win! GyroDodge is a simple gyroscopic mobile game. I used device orientation API to get the alpha, gamma, delta rotations of the mobile device and then use it to control the player. also available on itch.io
 
 iframe: //www.youtube.com/embed/GdRlkHTMk9c/?modestbranding=1&showinfo=0&autohide=1&rel=0
-demo: //anuraghazra.github.io/GyroDodge/
-src: //github.com/anuraghazra/GyroDodge
+demo: //ngugidavid.github.io/GyroDodge/
+src: //github.com/ngugidavid/GyroDodge
 
 info:
   idea: Gyrododge was an experimental game for testing out the Javascript's Gyroscope API. It turns out that we can do pretty much anything with it. So i made a game with it.
@@ -42,7 +42,7 @@ if (!window.DeviceOrientationEvent) {
 
 to move the player in the desired location with these parameters, I add them to the player's `acceleration` by using p5.js's `Vector` class
 
-> [check out the code](https://github.com/anuraghazra/gyrododge/blob/master/js/Player.js#L44)
+> [check out the code](https://github.com/ngugidavid/gyrododge/blob/master/js/Player.js#L44)
 
 ```js
 window.addEventListener("deviceorientation", e => {
@@ -126,7 +126,7 @@ And that's it, for the Rock.js class.
 
 ## Particles Class
 
-I also added Particles class which emits particles in a random direction, and it extends the [Bullet](https://github.com/anuraghazra/GyroDodge/blob/master/js/Bullet.js) class
+I also added Particles class which emits particles in a random direction, and it extends the [Bullet](https://github.com/ngugidavid/GyroDodge/blob/master/js/Bullet.js) class
 
 ```js
 class Particle extends Bullet {
@@ -152,7 +152,7 @@ class Particle extends Bullet {
 
 ## Bullet Class
 
-> [check out the code](https://github.com/anuraghazra/GyroDodge/blob/master/js/Bullet.js)
+> [check out the code](https://github.com/ngugidavid/GyroDodge/blob/master/js/Bullet.js)
 
 In bullet class, there's not much going on just basic stuff
 
@@ -197,7 +197,7 @@ class Bullet {
 
 ## Player Class
 
-> [check out the code](https://github.com/anuraghazra/GyroDodge/blob/master/js/Player.js)
+> [check out the code](https://github.com/ngugidavid/GyroDodge/blob/master/js/Player.js)
 
 In Player class we have some exciting stuff, let's see the constructor first
 
@@ -266,12 +266,12 @@ It's the vital part of the class because it checks if the Player hits any Astero
 
 ## Game Class
 
-> [check out the code](https://github.com/anuraghazra/GyroDodge/blob/master/js/Game.js)
+> [check out the code](https://github.com/ngugidavid/GyroDodge/blob/master/js/Game.js)
 
 Game class is just a state manager for the game, which holds all the variables and state management.
 
-we also have [AssetMan](https://github.com/anuraghazra/GyroDodge/blob/master/js/AssetMan.js) class which preloads all the assets for the game (sound effects)
+we also have [AssetMan](https://github.com/ngugidavid/GyroDodge/blob/master/js/AssetMan.js) class which preloads all the assets for the game (sound effects)
 
 ## Setting Up
 
-And lastly but not least, we have [index.js](https://github.com/anuraghazra/GyroDodge/blob/master/js/index.js) where I wrote all the necessary game logic and initialization.
+And lastly but not least, we have [index.js](https://github.com/ngugidavid/GyroDodge/blob/master/js/index.js) where I wrote all the necessary game logic and initialization.

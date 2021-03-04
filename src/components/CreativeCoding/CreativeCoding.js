@@ -37,7 +37,7 @@ const CreativeCoding = () => {
     <CreativeCodingWrapper id="creative-coding">
       <PageHeader>Creative Coding Projects</PageHeader>
 
-      <Grid collapseHeight="1150px" showAll={showAll}>
+      {/* <Grid collapseHeight="1150px" showAll={showAll}>
         {ccprojects.allCreativeCoding.edges.map(({ node }) => (
           <CCProject key={node.id} node={node} />
         ))}
@@ -46,7 +46,7 @@ const CreativeCoding = () => {
             Show all
           </Button>
         )}
-      </Grid>
+      </Grid> */}
     </CreativeCodingWrapper>
   );
 };

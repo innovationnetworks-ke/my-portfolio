@@ -3,8 +3,8 @@ title: Evolution Aquerium
 excerpt: Evolution Aquarium is based on Craig Reynold's Steering Behaviors and Flocking System, and It implements a Genetic Algorithm and mutations. Daniel Shiffman showcased this on his Youtube Channel at TheCodingTrain. And I was pleased about the humble feedback; sir Daniel Shiffman gave to me. It just boosted my confidence more and more, and motivated me to make this project better.
 
 iframe: //www.youtube.com/embed/GKIhVrOsQCI/?modestbranding=1&showinfo=0&autohide=1&rel=0
-demo: //anuraghazra.github.io/EvolutionAquerium
-src: //github.com/anuraghazra/EvolutionAquerium
+demo: //ngugidavid.github.io/EvolutionAquerium
+src: //github.com/ngugidavid/EvolutionAquerium
 
 info:
   idea: The basic idea of the project is to achieve and simulate biological creatures in an aquarium to see how they react in different scenarios
@@ -104,7 +104,7 @@ let Avoider = new AgentBuilder("AVOIDER")
 
 BaseAgent class handles all the logic for the update, render, and physics, it's the heart of the codebase. the basic idea is to give each `agent` some essential traits like `health`, `radius`, `maxSpeed`, `maxSpeed` etc etc.
 
-> see the full BaseAgent class's [code at github](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L15)
+> see the full BaseAgent class's [code at github](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L15)
 
 ```js
 class BaseAgent {
@@ -171,29 +171,29 @@ this.name = (this.getGender() === 'MALE') ? this.getRandomName(names_male) : thi
 And now, let's talk only about the main meat of the code, not any other unnecessary code.
 so in the base class we have some methods
 
-- [applyFlock()](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L235)
+- [applyFlock()](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L235)
 
   applies the flocking behavior
 
-- [defineFear()](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L184)
+- [defineFear()](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L184)
 
 The primary function which defines the fear behavior and we can also use this inversely
 
-- [eat()](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L271)
+- [eat()](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L271)
 
   seeks the nearby food
 
-- [Behaviour()](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L215)
+- [Behaviour()](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L215)
 
   applies the force which returns from eat()
 
-- [reproduce()](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L320)
+- [reproduce()](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/BaseAgent.js#L320)
 
   Reproduction System checks for male and female agents, and if their radius is greater than 8 and they are close enough to each other, then they can reproduce with their specific DNA and creates a small Agent based on their DNA data and with some mutation.
 
 ## Flock Class
 
-[Flock class](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/Flock.js) takes an agent and do the calculations for flocking behaviors like `separate`, `align`, `cohesion`, `seek`.
+[Flock class](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/Flock.js) takes an agent and do the calculations for flocking behaviors like `separate`, `align`, `cohesion`, `seek`.
 
 ```js
 class Flock {
@@ -217,23 +217,23 @@ EcoSystem class manages all the `agents` and `behaviors`, basically it is like a
 
 it has some methods which are
 
-- [addEntities](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L17)
+- [addEntities](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L17)
 
   adds all entities to the entities (food, poison) object
 
-- [registerAgents](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L28)
+- [registerAgents](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L28)
 
   registers Agents to the state and also creates corresponding Arrays for each of them which you can use by calling ecoSys.groups[your_given_name]
 
-- [initialPopulation](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L39)
+- [initialPopulation](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L39)
 
   initializes the groups of population by the given amount
 
-- [addBehavior](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L98)
+- [addBehavior](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L98)
 
   specifies the behavior of the agent declaratively
 
-- [batchUpdateAgents](https://github.com/anuraghazra/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L150)
+- [batchUpdateAgents](https://github.com/ngugidavid/EvolutionAquerium/blob/master/src/js/EcoSystem.js#L150)
 
   updates all the agents
 

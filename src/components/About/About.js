@@ -21,10 +21,8 @@ const About = () => {
         <p>
          Hello, I am ngugidavid, Skilled Sofware Developer in Python, PHP, React and Angular Js, 
          also skilled in SQL, cassandra and MongoDB databases{' '}
-          <a className="about__link" href="https://github.com/innovationnetworks-ke">
-            innovation-networks-ke
-          </a>{' '}
-          Am well skilled and equiped with latest trends and upcoming technologies in software development,
+         <br></br>
+          Am well equiped with latest trends and upcoming technologies in software development,
           Sharpening my skills regulary to enhance building best dynamic softwares with latest technologies intergrated
           <br />
           <br />
@@ -38,12 +36,11 @@ const About = () => {
 
       <Flex justify="space-between" className="quotes__wrapper">
         <Quote>
-          <p>“Simplicity is the baddest choice to be the best.“</p>
+          <p>“Coding is my art, Programming is my skill“</p>
         </Quote>
         <Quote>
           <p>
-            “I know I’m not successful enough, but I’m passionate enough not to
-            worry about success.“
+            “Sky is no limit ,we made the moon-lander software.“
           </p>
         </Quote>
         <Quote>

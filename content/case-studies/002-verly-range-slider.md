@@ -2,23 +2,23 @@
 title: Verly Range Slider
 excerpt: Verly Range Slider is one of my fun projects which uses my Verly.js physics engine, and it also got mentioned in CodepenSpark. verly range slider got viral on the net and got over 15K views on codepen.io. It uses Verlet physics to simulate those delightful dangly sliders.
 
-iframe: //codepen.io/anuraghazra/embed/agKJEd/?default-tab=result&theme-id=light
-demo: //anuraghazra.github.io/VerlyRangeSlider
-src: //github.com/anuraghazra/VerlyRangeSlider
+iframe: //codepen.io/ngugidavid/embed/agKJEd/?default-tab=result&theme-id=light
+demo: //ngugidavid.github.io/VerlyRangeSlider
+src: //github.com/ngugidavid/VerlyRangeSlider
 
 info:
   idea: The main idea was to make some verlet simulated ropes and connect them to the rang slider's thumb and let them sway
   tech: [Javascript, Canvas]
   links:
-    - [ On Codepen, https://codepen.io/anuraghazra/pen/agKJEd ]
-    - [ Verly.js - Physics engine that it uses, https://github.com/anuraghazra/Verly.js ]
+    - [ On Codepen, https://codepen.io/ngugidavid/pen/agKJEd ]
+    - [ Verly.js - Physics engine that it uses, https://github.com/ngugidavid/Verly.js ]
     - [ Article at DataGenetic | Verlet Simulation , https://datagenetics.com/blog/july22018/index.html]
 ---
 
-While I was building my physics engine [Verly.js](http://anuraghazra.github.io/Verly.js) I was thinking of making something that would showcase the engine's potential to do some exciting stuff, so I created this just as an experiment. 
+While I was building my physics engine [Verly.js](http://ngugidavid.github.io/Verly.js) I was thinking of making something that would showcase the engine's potential to do some exciting stuff, so I created this just as an experiment. 
 
 
-- so far VerlyRangeSlider got over **18K Views** on [Codepen](https://codepen.io/anuraghazra/pen/agKJEd)
+- so far VerlyRangeSlider got over **18K Views** on [Codepen](https://codepen.io/ngugidavid/pen/agKJEd)
 - got mentioned in **[CodepenSpark #136](https://codepen.io/spark/136)**
 - showcased in **[justforfun.io](https://justforfun.io/post/verly-range-slider)**
 - and **40 stars** on Github
